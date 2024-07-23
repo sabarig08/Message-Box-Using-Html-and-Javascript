@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="message">
+    <h2>Ask Me a Question ?</h2>
+    <input type="text"  placeholder="Type Something..." required >
+    <br>
+    <button class="abc" onclick="acc()"><b>Accept</b></button>
+    <button class="abc" onclick="dec()"><b>Decline</b></button>
+</div>
+<script>
+    var message=document.getElementsByClassName("abc");
+    function acc(){
+        alert("Accepted Your Message")
+        return false;
+    }
+    function dec(){
+        alert("Declined Your Message")
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.message{
+    margin: 40%;
+    margin-top: 200px;
+    border: 5px solid gold;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(250, 247, 242);
+    border-radius: 10px;
+}
+input{
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(249, 216, 203);
+}
+h2{
+    margin-left: 80px;
+}
+button{
+    background-color: #ffee00;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+}
